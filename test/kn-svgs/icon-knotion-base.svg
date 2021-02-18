@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 224 256">
+  <!--
+  <rect width="224" height="256" fill="none" stroke-width="0.5" stroke="black" />
+  <circle cx="112" cy="112" r="96.4" />
+  <line x1="0" y1="112" x2="224" y2="112" stroke="blue" stroke-width="0.2" />
+  <line x1="112" y1="0" x2="112" y2="256" stroke="blue" stroke-width="0.2" />
+  <rect x="16" y="16" width="192" height="192" fill="none" stroke-width="0.2" stroke="red" />
+  -->
+
+  <path fill="currentColor" fill-rule="evenodd"
+    d="M112,16a96,96 0 1 0 96,96a96,96 0 0 0 -96,-96z m0,24a64,72 0 1 0 64,72a64,72 0 0 0 -64,-72z" />
+
+  <path fill="currentColor" fill-rule="evenodd"
+    d="M48,212a96,20 0 1 0 128,0l-16,0 -4,2a24,10 0 0 1 20,10 64,8 0 1 1 -128,0 24,10 0 0 1 20,-10l-4,-2z" />
+
+  <!--
+  <rect x="48" y="40" width="128" height="144" fill="none" stroke-width="0.2" stroke="red" />
+  <rect x="48" y="192" width="128" height="38" fill="none" stroke-width="0.2" stroke="red" />
+  <rect x="16" y="212" width="192" height="32" fill="none" stroke-width="0.2" stroke="blue" />
+  <line x1="16" y1="0" x2="16" y2="256" stroke="red" stroke-width="0.1" />
+  <line x1="208" y1="0" x2="208" y2="256" stroke="red" stroke-width="0.1" />
+  -->
+</svg>

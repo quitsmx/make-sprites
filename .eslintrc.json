@@ -1,0 +1,11 @@
+{
+  "root": true,
+  "extends": ["@quitsmx"],
+  "ignorePatterns": ["dist"],
+  "overrides": [
+    {
+      "files": ["**/*.js"],
+      "extends": "@quitsmx/eslint-config/node"
+    }
+  ]
+}

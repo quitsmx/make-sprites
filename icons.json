@@ -1,0 +1,135 @@
+/**
+ * Este JSON lo usa `makeSprites` para generar sprites de iconos
+ * en project://public/sprites.svg y los correspondientes typings y mapa
+ * de `id`s en project://src/support/sprites.ts
+ *
+ * Las llaves del json son las mismas llaves del mapa de `id` de sprites.ts,
+ * pero los índices cambian debido a que se agrega el prefijo del grupo para
+ * FontAwesome Regular (far), lo que nos permite tener un mismo icono en dos
+ * diferentes estilos sin conflicto de nombre.
+ *
+ * @example
+ *```js
+ *    import { Icon, IC } from '~/components'
+ *    const icon = <Icon icon={IC.farCopy} />
+ *    // Aquí, IC.farCopy es "far-copy"
+ *```
+ *
+ * En runtime, el componente `Icon` usa un diccionario `IC` exportado por
+ * sprites.ts y lo reexporta además de usarlo para recuperar el id del sprite.
+ *
+ *------------------------------------------------------------------------------
+ * Las imágenes y los `id` de los iconos los encuentras en...
+ * FontAwesome:
+ *  https://fontawesome.com/icons?d=gallery&s=brands,regular,solid&m=free
+ * Web Icons:
+ *  https://getbootstrapadmin.com/remark/base/uikit/icons/web-icons.html
+ */
+{
+  "kn": {
+    "home": "home",
+    "logo": "logo",
+    "medal": "medal"
+  },
+  "fas": {
+    "angleLeft": "angle-left",
+    "angleRight": "angle-right",
+    "arrowLeft": "arrow-left",
+    "arrowRight": "arrow-right",
+    "ban": "ban",
+    "bars": "bars",
+    "bell": "bell",
+    "bellSlash": "bell-slash",
+    "caretRight": "caret-right",
+    "chartBar": "chart-bar",
+    "checkCircle": "check-circle",
+    "checkSquare": "check-square",
+    "coffee": "coffee",
+    "cogs": "cogs",
+    "copy": "copy",
+    "crosshairs": "crosshairs",
+    "exchange": "exchange-alt",
+    "exclamationTriangle": "exclamation-triangle",
+    "externalLink": "external-link-alt",
+    "infoCircle": "info-circle",
+    "key": "key",
+    "levelUp": "level-up-alt",
+    "link": "link",
+    "lock": "lock",
+    "minusCircle": "minus-circle",
+    "pauseCircle": "pause-circle",
+    "pencil": "pencil-alt",
+    "playCircle": "play-circle",
+    "plusCircle": "plus-circle",
+    "powerOff": "power-off",
+    "search": "search",
+    "shareSquare": "share-alt-square",
+    "shield": "shield-alt",
+    "slidersH": "sliders-h",
+    "sortAlphaDown": "sort-alpha-down",
+    "sync": "sync-alt",
+    "th": "th",
+    "timesCircle": "times-circle",
+    "trash": "trash-alt",
+    "unlock": "unlock",
+    "user": "user",
+    "users": "users",
+    "warning": "exclamation-triangle"
+  },
+  "fab": {
+    "trello": "trello"
+  },
+  "far": {
+    "farArrowCircleUp": "arrow-alt-circle-up",
+    "farClock": "clock",
+    "farComment": "comment",
+    "farCopy": "copy",
+    "farDotCircle": "dot-circle",
+    "farFileArchive": "file-archive",
+    "farFileAudio": "file-audio",
+    "farFileImage": "file-image",
+    "farFilePdf": "file-pdf",
+    "farFileVideo": "file-video",
+    "farList": "list-alt",
+    "farMinusSquare": "minus-square",
+    "farSmile": "smile",
+    "farTrash": "trash-alt"
+  },
+  "wb": {
+    "wbAddFile": "add-file",
+    "wbAlertCircle": "alert-circle",
+    "wbAttachFile": "attach-file",
+    "wbCalendar": "calendar",
+    "wbCheck": "check",
+    "wbCheckCircle": "check-circle",
+    "wbCheckMini": "check-mini",
+    "wbChevronDown": "chevron-down",
+    "wbChevronUp": "chevron-up",
+    "wbClose": "close",
+    "wbCloseMini": "close-mini",
+    "wbContract": "contract",
+    "wbEye": "eye",
+    "wbEyeClose": "eye-close",
+    "wbFile": "file",
+    "wbFlag": "flag",
+    "wbExpand": "expand",
+    "wbHeart": "heart",
+    "wbListBulleted": "list-bulleted",
+    "wbLoop": "loop",
+    "wbMediumPoint": "medium-point",
+    "wbMenu": "menu",
+    "wbMinus": "minus",
+    "wbMoreHorizontal": "more-horizontal",
+    "wbMoreVertical": "more-vertical",
+    "wbPaperclip": "paperclip",
+    "wbPencil": "pencil",
+    "wbPlus": "plus",
+    "wbPlusCircle": "plus-circle",
+    "wbPower": "power",
+    "wbSettings": "settings",
+    "wbTag": "tag",
+    "wbTriangleLeft": "triangle-left",
+    "wbTriangleRight": "triangle-right",
+    "wbUpload": "upload"
+  }
+}

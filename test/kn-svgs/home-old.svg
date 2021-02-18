@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <style>
+    .kn {
+      fill: none;
+      fill-rule: evenodd;
+      clip-rule: evenodd;
+      stroke-width: 0.2;
+      stroke: green;
+    }
+  </style>
+  <rect fill="none" stroke="black" stroke-width="0.1" x="0" y="0" width="64" height="64" />
+  <rect fill="none" stroke="black" stroke-width="0.1" x="4" y="4" width="56" height="56" />
+  <rect fill="none" stroke="#f00" stroke-width="0.1" x="12" y="4" width="40" height="40" />
+  <rect fill="none" stroke="#00f" stroke-width="0.1" x="16" y="6" width="32" height="42" />
+  <line stroke="#39f" stroke-width="0.1" x1="32" x2="32" y1="0" y2="64" />
+  <line stroke="#06c" stroke-width="0.1" x1="0" x2="64" y1="34" y2="34" />
+  <line stroke="#06c" stroke-width="0.1" x1="0" x2="64" y1="38" y2="38" />
+  <line stroke="#3cf" stroke-width="0.1" x1="0" x2="64" y1="44" y2="44" />
+  <!--
+  -->
+  <path class="kn"
+    d="M32,0l32,32 0,4 -2,2h-9v26h-18v-14a2,2,0,0,0,-2,-2h-2a2,2,0,0,0,-2,2v14h-18v-26h-9l-2,-2v-4z M32,6l28,28h-12v26h-9v-12a4,4,0,0,0,-4,-4h-6a4,4,0,0,0,-4,4v12h-9v-26h-12Z" />
+</svg>

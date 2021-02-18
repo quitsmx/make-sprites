@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    /* Visit https://aka.ms/tsconfig.json to read more about this file */
+    "allowJs": true,
+    "allowUnreachableCode": false,
+    "baseUrl": ".",
+    "charset": "utf8",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": false,
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "newLine": "lf",
+    "noEmitOnError": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "paths": { "~/*": ["src/*"] },
+    "resolveJsonModule": true,
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": false,
+    "strict": true,
+    "stripInternal": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "target": "ES2019"
+  },
+  "include": ["src", "scripts"],
+  "exclude": ["node_modules", "test"]
+}
