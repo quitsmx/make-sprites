@@ -6,6 +6,6 @@
   "quoteProps": "consistent",
   "semi": false,
   "singleQuote": true,
-  "spaceBeforeFunctionParen": false,
+  "spaceBeforeFunctionParen": true,
   "yieldStarSpacing": true
 }

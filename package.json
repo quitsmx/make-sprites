@@ -1,6 +1,6 @@
 {
   "name": "@quitsmx/make-sprites",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Make a sprites file from selected icons",
   "main": "./index.js",
   "author": "quits <quitsmx@gmail.com>",
@@ -42,8 +42,8 @@
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "~5.15.2",
-    "@quitsmx/eslint-config": "~0.3.0",
-    "@types/node": "~14.14.28",
+    "@quitsmx/eslint-config": "~0.3.1",
+    "@types/node": "~14.14.30",
     "@types/prettier": "~2.2.1",
     "eslint": "~7.20.0",
     "prettier": "github:aMarCruz/prettier#2.2.1",

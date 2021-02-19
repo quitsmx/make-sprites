@@ -4,47 +4,38 @@
  *
  * Generado automáticamente por makeSprites con datos de project://icons.json
  *
- * @see https://fontawesome.com/how-to-use/on-the-web/using-with/react
- *
- * Se proporcionan `const enum` para cada uno de los grupos y un objeto `IC`
- * con todos. Puedes usar cualquiera, el componente `Icon` valida con `IC`.
- *
  * NOTE:
  * No edites este archivo manualmente, en su lugar agrega o quita iconos
- * en el "icons.json" de la raíz y ejecuta `yarn mk:icons` de nuevo.
+ * del archivo "icons.json" en la raíz del proyecto.
  * ---------------------------------------------------------------------
  */
 
 /**
- * Copia las propiedades de `obj` en un objeto simple sin perder su tipo.
+ * Copia las propiedades de `obj` en otro objeto sin perder su tipo.
  */
 const _wrap = <T extends Record<string, unknown>>(obj: T): T =>
   Object.assign(Object.create(null) as unknown, obj)
 
 /**
- * `IC` contiene todos los ids y lo usará el componente `Icon` para
- * validar la existencia de un símbolo en runtime.
+ * `IC` lo usará el componente `Icon` para validar los símbolos en runtime.
  *
  * Se puede (y debería) usar también para la propiedad `Icon.icon`.
  * @example
  *```js
  * const elem = <Icon icon={IC.farClock} size="2x" />
  *```
- *
- * NOTE: Los iconos de los grupos "far" y "wb" tienen prefijos que permiten
- *       el uso de iconos con el mismo nombre pero diferente estilo.
  */
 export const IC = _wrap({
 {{mapKeys}}
 } as const)
 
 /**
- * SVG con los sprites, relativo a la raíz del sitio ("public" en dev).
+ * Rura del SVG de sprites, relativo a la raíz del repositorio.
  */
 export const spriteSvgName = '{{svgName}}'
 
 /**
- * Lo usa Icon.tsx para establecer en runtime las clases para el ancho
- * y el conjunto al que pertenece cada icono.
+ * Usado por Icon.tsx para establecer en runtime las clases para el ancho
+ * y el conjunto al que pertenece cada icono. Los omitidos son ratio `16`.
  */
 export const iconRatios = {{ratios}}
