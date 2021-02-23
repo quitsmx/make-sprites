@@ -160,7 +160,7 @@ const createDefinesFile = async (idMap: IconIds, sizes: SizeMap, opts: FullOptio
     .replace('{{date}}', getDateStr())
     .replace('{{mapKeys}}', flatNameIds(idMap))
     .replace('{{ratios}}', stringify(getRatios(sizes)))
-    .replace('{{svgName}}', path.relative('.', opts.svgOutputPath))
+    .replace('{{svgName}}', path.basename(opts.svgOutputPath))
 
   return saveJsFile(content, opts)
 }

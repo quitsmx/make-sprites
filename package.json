@@ -10,7 +10,13 @@
     "data/",
     "dist/"
   ],
-  "bugs": "https://github.com/quitsmx/make-sprites/issues",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bugs": {
+    "url": "https://github.com/quitsmx/make-sprites/issues",
+    "email": "quitsmx@gmail.com"
+  },
   "repository": {
     "url": "https://github.com/quitsmx/make-sprites.git",
     "type": "git"
