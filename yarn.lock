@@ -210,10 +210,10 @@
     "@nodelib/fs.scandir" "2.1.4"
     fastq "^1.6.0"
 
-"@quitsmx/eslint-config@~0.3.1":
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/@quitsmx/eslint-config/-/eslint-config-0.3.1.tgz#ab71e55200df70dff9cbbd84d89f7c53f1f694d3"
-  integrity sha512-Hf2lYf6nD1Y8n0N87Bb2aaJ1C2jUYMlkkBQ1DbMH39uXVkP4V+3LhalEmnHJw8lIhAvR72eXr9cmuOAG7QGzDQ==
+"@quitsmx/eslint-config@~0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@quitsmx/eslint-config/-/eslint-config-0.4.0.tgz#16ca0b44a02407fec3ca3d388aa6e4052bc96336"
+  integrity sha512-dZqARBiCgyFPh6paMPp84zMJVwId0D4DP3bHaaJ5BYYvtxWI1gLErqUMH4uE6QXs5DHm8L+hCSNuewxnVFvKcg==
   dependencies:
     "@typescript-eslint/eslint-plugin" "~4.15.1"
     "@typescript-eslint/parser" "~4.15.1"
@@ -239,10 +239,10 @@
   resolved "https://registry.yarnpkg.com/@types/json-schema/-/json-schema-7.0.7.tgz#98a993516c859eb0d5c4c8f098317a9ea68db9ad"
   integrity sha512-cxWFQVseBm6O9Gbw1IWb8r6OS4OhSt3hPZLkFApLjM8TEXROBuQGLAH2i2gZpcXdLBIrpXuTDhH7Vbm1iXmNGA==
 
-"@types/node@~14.14.30":
-  version "14.14.30"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.30.tgz#7d5162eec085ba34f8cb9011e9ba12119f76f961"
-  integrity sha512-gUWhy8s45fQp4PqqKecsnOkdW0kt1IaKjgOIR3HPokkzTmQj9ji2wWFID5THu1MKrtO+d4s2lVrlEhXUsPXSvg==
+"@types/node@~14.14.31":
+  version "14.14.31"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.31.tgz#72286bd33d137aa0d152d47ec7c1762563d34055"
+  integrity sha512-vFHy/ezP5qI0rFgJ7aQnjDXwAMrG0KqqIH7tQG5PPv3BWBayOPIQNBjVc/P6hhdZfMx51REc6tfDNXHUio893g==
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.0"
