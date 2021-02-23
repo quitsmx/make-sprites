@@ -1,6 +1,6 @@
 {
   "name": "@quitsmx/make-sprites",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Make a sprites file from selected icons",
   "main": "./index.js",
   "author": "quits <quitsmx@gmail.com>",
